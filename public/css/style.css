@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+a { transition: all 0.3s ease; display: block}
+a:hover { text-decoration: none}
+h3 { font-size: 25px;}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body { border: none; margin: 0px}
+.panel-group .panel + .panel { margin: 0px}
+
+
+.top-header { width: 100%; background: #2B2B2B}
+.top-header-logo { width: 210px; height: 60px;  text-align: center; background: #9F111B; color: #ffffff;}
+.top-header-logo h3 { line-height: 60px; font-family: 'Roboto', sans-serif; font-weight: 300; margin: 0px;}
+
+.container { width: 100%; height: auto}
+
+.sidebar-menu { width: 210px; height: 100%; background: #2B2B2B; float: left}
+.sidebar-menu ul {list-style: none; margin: 0px; padding: 0px}
+.menu-button { font-family: 'Roboto', sans-serif; text-decoration: none; display: block; color: #ffffff; padding: 15px; text-align: left; font-size: 14px; }
+.menu-button:hover { background: #000000; cursor: hand}
+
+.sidebar-menu .search { background: #353634; padding: 15px; }
+.sidebar-menu .search input { width: 100%; background: transparent; color: #9d9d9d;  border: none; border-bottom: 1px  #9d9d9d solid; padding: 5px}
+.sidebar-menu .search input:focus { color: #ffffff; text-decoration: inherit}
+
+.sidebar-menu .panel { background: transparent; color: #ffffff; border: none}
+.sidebar-menu .panel-heading { padding: 0px; display: block;}
+.sidebar-menu .panel-heading h4 {  font-size: 14px}
+.sidebar-menu .panel-heading a { padding: 20px; display: block}
+.sidebar-menu .panel-heading:hover { background: #000000; border: none;}
+.sidebar-menu .panel-heading i { float: right}
+.sidebar-menu .panel-body { background: #444444; transition: all 0.3s; padding: 10px 0px;}
+.submenu { background: #444444; transition: all 0.3s; padding: 15px}
+.submenu ul { list-style-type: none; margin-left: 25px}
+.submenu li a { vertical-align: middle;font-size: 14px; font-family: 'Roboto', sans-serif; display: block; color: #fff; padding-bottom: 10px}
+.submenu li a:hover { color: #E6324B; text-decoration: none}
+.submenu li a i {  font-size: 8px; vertical-align: middle; padding: 0px 10px 0px 0px;}
+
+
+.content { width: 100%; padding: 15px}
+.title { width: 100%; padding: 15px; border-bottom: #414042 2px solid; font-size: 30px}
+.body-content { width: 100%; padding: 15px}
+.body-content table { width: 100%;  border: #444444 2px solid}
+.body-content tr { border: #aaaaaa 1px solid}
+.body-content th { padding: 10px; font-weight: 600; background: #f1f2f2; border: #444 2px solid}
+.body-content td { padding: 8px}
